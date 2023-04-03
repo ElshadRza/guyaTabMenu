@@ -1,0 +1,69 @@
+@font-face {
+  font-family: Light;
+  src: url(../fonts/Poppins-Light.ttf);
+}
+@font-face {
+  font-family: Bold;
+  src: url(../fonts/Poppins-Bold.ttf);
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#container .buttons {
+  background-color: rgb(100, 220, 154);
+  padding: 10px;
+  border-style: solid;
+  border-radius: 50px;
+}
+#container .buttons button {
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 50px;
+  background-color: rgb(247, 247, 248);
+  font-family: Bold;
+}
+#container .buttons button:hover {
+  background-color: aqua;
+}
+#container .buttons button:active,
+#container .buttons button:focus {
+  background-color: teal;
+}
+#container h4 {
+  font-family: Bold;
+}
+#container .city {
+  height: 50%;
+  width: 30%;
+  padding: 5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(237, 229, 229);
+  border-radius: 100px;
+  text-align: center;
+  margin-left: 10px;
+  background-color: bisque;
+  display: none;
+}
+#container .city p {
+  font-family: Light;
+}
+#container .first {
+  margin-left: 0;
+}
+#container .first h4 {
+  margin-left: 0;
+}
+
+.visible {
+  display: block;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
